@@ -4,23 +4,23 @@
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/Screenshot_Info.png)
 
 ## Configuration
-Motherboard: Gigabyte Gaming X
-BIOS: f10c
-CPU: i9-9900K  
-RAM: 2x 8GB Crucial Ballistix Sport LT BLS2K8G4D30BESBK 3000 MHz, DDR4
-Storage: Samsung 950 EVO M.2 512GB  
-dGPU: ASUS 5700XT (Reference)  
-WIFI/BT: FV-T919  
+- Motherboard: Gigabyte Gaming X
+- BIOS: f10c
+- CPU: i9-9900K  
+- RAM: 2x 8GB Crucial Ballistix Sport LT BLS2K8G4D30BESBK 3000 MHz, DDR4
+- Storage: Samsung 950 EVO M.2 512GB  
+- dGPU: ASUS 5700XT (Reference)  
+- WIFI/BT: FV-T919  
 
-SMIbios 19,1
-OpenCore 5.8
+- SMIbios 19,1
+- OpenCore 5.8
 
 ## Knowning Issue
 Fast boot
 NVRAM if CFG Lock is disabled (see below)
 Sleep/Wake from bluetooth mouse or keyboard
 Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies and SideCar
-![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/Screenshot Framebuffer.png)
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/Screenshot_Framebuffer.png)
 
 
 ## Knowning Issue
