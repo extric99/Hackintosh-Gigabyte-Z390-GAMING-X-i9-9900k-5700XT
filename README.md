@@ -1,4 +1,4 @@
-# Hackintosh Gigabyte GAMING X-i9-9900k 5700XT
+# Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
 ## Verified working with 10.15.5.
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
