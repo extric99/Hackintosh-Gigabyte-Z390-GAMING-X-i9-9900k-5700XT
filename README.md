@@ -1,7 +1,7 @@
-# Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT
+# Hackintosh Gigabyte GAMING X-i9-9900k 5700XT
 
 ## Verified working with 10.15.5.
-![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/Screenshot_Info.png)
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
 
 ## Configuration
 - Motherboard: Gigabyte Gaming X
@@ -15,17 +15,17 @@
 - SMIbios 19,1
 - OpenCore 5.8
 
-## Knowning Issue
-Fast boot
-NVRAM if CFG Lock is disabled (see below)
-Sleep/Wake from bluetooth mouse or keyboard
-Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies and SideCar
-![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/Screenshot_Framebuffer.png)
+## Confirmed working
+-Fast boot
+- NVRAM if CFG Lock is disabled (see below)
+- Sleep/Wake from bluetooth mouse or keyboard
+- Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies and SideCar
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Framebuffer.png)
 
 
 ## Knowning Issue
-Unlock with Apple Watch does not work (for me)
-Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
+-Unlock with Apple Watch does not work (for me)
+-Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
 
 
 ## Bios Setup:
@@ -35,7 +35,10 @@ Make sure the IGP is set to Enabled (Auto will not work)
 ## USB Setup:
 
 Some ports have been disabled to say below the 15 port limit
-![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/Screenshot_USB.png)
+
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_USB_Layout.png)
+
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_USB.png)
 
 ## Post Installation
 1. Setup Bios as per above
@@ -44,7 +47,7 @@ Some ports have been disabled to say below the 15 port limit
 4. Disable CFG Lock and save profile in Bios (see below)
 5. Done.
 
-![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/Screenshot_MAC.png)
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_MAC.png)
 
 ## Disable CFG Lock
 
