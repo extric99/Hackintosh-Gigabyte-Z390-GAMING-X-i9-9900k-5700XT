@@ -16,7 +16,7 @@
 - OpenCore 5.8
 
 ## Confirmed working
--Fast boot
+- Fast boot
 - NVRAM if CFG Lock is disabled (see below)
 - Sleep/Wake from bluetooth mouse or keyboard
 - Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies and SideCar
@@ -34,7 +34,7 @@ Make sure the IGP is set to Enabled (Auto will not work)
 
 ## USB Setup:
 
-Some ports have been disabled to say below the 15 port limit
+Some ports have been disabled to stay below the 15 port limit
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_USB_Layout.png)
 
