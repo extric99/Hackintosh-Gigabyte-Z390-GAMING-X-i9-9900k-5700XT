@@ -1,7 +1,7 @@
 # Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT
 
 ## Verified working with 10.15.5.
-![](https://raw.githubusercontent.com/wellsgz/Opencore-Gigabyte-Z390M-Gaming-Hackintosh/master/imgs/Snipaste_2020-01-29_16-58-11.png)
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/Screenshot_Info.png)
 
 ## Configuration
 Motherboard: Gigabyte Gaming X
