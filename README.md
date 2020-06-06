@@ -23,14 +23,17 @@
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Framebuffer.png)
 
 
-## Knowning Issue
+## Known Issues
 - Unlock with Apple Watch does not work (for me)
 - Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
 
 
 ## Bios Setup:
 
-Make sure the IGP is set to Enabled (Auto will not work)
+- Make sure the IGP is set to Enabled for the Framebuffer to be recognized (Auto will not work)
+- Advanced Mode > Settings > Above 4G Decoding > Enabled
+- Advanced Mode > Settings > USB Configuration > XHCI Hand-off > Enabled
+- Advanced Mode > Boot > CSM Support > Disabled
 
 ## USB Setup:
 
