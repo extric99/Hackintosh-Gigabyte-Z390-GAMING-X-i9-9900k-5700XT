@@ -12,7 +12,7 @@
 - dGPU: ASUS 5700XT (Reference)  
 - WIFI/BT: FV-T919  
 
-- SMIbios 19,1
+- SMIBIOS 19,1
 - OpenCore 5.8
 
 ## Confirmed working
@@ -24,8 +24,8 @@
 
 
 ## Knowning Issue
--Unlock with Apple Watch does not work (for me)
--Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
+- Unlock with Apple Watch does not work (for me)
+- Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
 
 
 ## Bios Setup:
