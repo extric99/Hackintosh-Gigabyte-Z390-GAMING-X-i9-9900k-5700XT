@@ -19,9 +19,14 @@
 - Quick boot into MacOS and rock solid
 - NVRAM if CFG Lock is disabled (see below)
 - Fan and CPU temp information
+
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/temp.png)
+
 - iMessage,Handoff and Approve with Apple Watch
 - Sleep and Wake from bluetooth mouse or keyboard
 - Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies and SideCar
+
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Hackintool_1.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot%20Framebuffer.png)
 
 
