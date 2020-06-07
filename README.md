@@ -1,4 +1,4 @@
-# Hackintosh Gigabyte GAMING X-i9-9900k 5700XT
+# Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
 ## Verified working with 10.15.5.
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
@@ -12,29 +12,35 @@
 - dGPU: ASUS 5700XT (Reference)  
 - WIFI/BT: FV-T919  
 
-- SMIbios 19,1
+- SMIBIOS 19,1
 - OpenCore 5.8
 
 ## Confirmed working
--Fast boot
+- Quick boot into MacOS and rock solid
 - NVRAM if CFG Lock is disabled (see below)
-- Sleep/Wake from bluetooth mouse or keyboard
+- Fan and CPU temp information
+- iMessage,Handoff and Approve with Apple Watch
+- Sleep and Wake from bluetooth mouse or keyboard
 - Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies and SideCar
-![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Framebuffer.png)
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot%20Framebuffer.png)
 
 
-## Knowning Issue
--Unlock with Apple Watch does not work (for me)
--Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
+## Known Issues
+- Unlock with Apple Watch does not work (for me)
+- Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
 
 
 ## Bios Setup:
 
-Make sure the IGP is set to Enabled (Auto will not work)
+- Make sure the IGP is set to Enabled for the Framebuffer to be recognized (Auto will not work)
+- Advanced Mode > Settings > Above 4G Decoding > Enabled
+- Advanced Mode > Settings > USB Configuration > XHCI Hand-off > Enabled
+- Advanced Mode > Boot > CSM Support > Disabled
 
 ## USB Setup:
 
-Some ports have been disabled to say below the 15 port limit
+Some ports have been disabled to stay below the 15 port limit
+Ignore the Thunderbolt controller, this has been removed from this EFI.
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_USB_Layout.png)
 
@@ -51,7 +57,8 @@ Some ports have been disabled to say below the 15 port limit
 
 ## Disable CFG Lock
 
-Diable CFG Lock (MSR 0x5C1) in BIOS via modified GRUB Shell, follow the guide [HERE] (https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193)
+Disable CFG Lock (MSR 0x5C1) in BIOS via modified GRUB Shell, follow the guide [HERE] (https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193)
+
 Credits pastrychef
 
 Unlock MSR (NVRAM will not work with locked MSR) <-This value is ONLY for the Gigabyte Z390 M Gaming or Gaming X!!
