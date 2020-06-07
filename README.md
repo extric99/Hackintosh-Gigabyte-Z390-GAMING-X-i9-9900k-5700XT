@@ -16,9 +16,11 @@
 - OpenCore 5.8
 
 ## Confirmed working
-- Fast boot
+- Quick boot into MacOS and rock solid
 - NVRAM if CFG Lock is disabled (see below)
-- Sleep/Wake from bluetooth mouse or keyboard
+- Fan and CPU temp information
+- iMessage,Handoff and Approve with Apple Watch
+- Sleep and Wake from bluetooth mouse or keyboard
 - Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies and SideCar
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot%20Framebuffer.png)
 
@@ -38,6 +40,7 @@
 ## USB Setup:
 
 Some ports have been disabled to stay below the 15 port limit
+Ignore the Thunderbolt controller, this has been removed from this EFI.
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_USB_Layout.png)
 
