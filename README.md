@@ -58,6 +58,8 @@ Ignore the Thunderbolt controller, this has been removed from this EFI.
 4. Disable CFG Lock and save profile in Bios (see below)
 5. Done.
 
+if you get stuck at opencore boot, try to clear nvram via opencore settings  
+
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_MAC.png)
 
 ## Disable CFG Lock
