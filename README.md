@@ -53,7 +53,7 @@ Ignore the Thunderbolt controller, this has been removed from this EFI.
 
 ## Post Installation
 1. Setup Bios as per above
-2. Open your config.plist and populate the Serial, Board Serial, UUID and MAC address
+2. Open your config.plist and populate the Serial, Board Serial, UUID and MAC address. Make sure to edit the config.plist only with ProperTree
 3. Go to System Preferences > Startup Disk and select your startup disk.
 4. Disable CFG Lock and save profile in Bios (see below)
 5. Done.
