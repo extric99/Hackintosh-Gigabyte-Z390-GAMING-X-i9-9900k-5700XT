@@ -24,7 +24,7 @@
 
 - iMessage,Handoff and Approve with Apple Watch
 - Sleep and Wake from bluetooth mouse or keyboard
-- Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies and SideCar
+- iGPU Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies (shikivga=80) and SideCar
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Hackintool_1.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot%20Framebuffer.png)
@@ -53,11 +53,13 @@ Ignore the Thunderbolt controller, this has been removed from this EFI.
 
 ## Post Installation
 1. Setup Bios as per above
-2. Open your config.plist and populate the Serial, Board Serial, UUID and MAC address
+2. Open your config.plist and populate the Serial, Board Serial, UUID and MAC address. Make sure to edit the config.plist only with ProperTree
 3. Go to System Preferences > Startup Disk and select your startup disk.
 4. Disable CFG Lock and save profile in Bios (see below)
 5.[Enable Trim](https://www.howtogeek.com/222077/how-to-enable-trim-for-third-party-ssds-on-mac-os-x/)
 6. Done.
+
+if you get stuck at opencore boot, try to clear nvram via opencore settings  
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_MAC.png)
 
