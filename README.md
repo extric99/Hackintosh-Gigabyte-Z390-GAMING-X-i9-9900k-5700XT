@@ -56,7 +56,8 @@ Ignore the Thunderbolt controller, this has been removed from this EFI.
 2. Open your config.plist and populate the Serial, Board Serial, UUID and MAC address
 3. Go to System Preferences > Startup Disk and select your startup disk.
 4. Disable CFG Lock and save profile in Bios (see below)
-5. Done.
+5.[Enable Trim](https://www.howtogeek.com/222077/how-to-enable-trim-for-third-party-ssds-on-mac-os-x/)
+6. Done.
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_MAC.png)
 
