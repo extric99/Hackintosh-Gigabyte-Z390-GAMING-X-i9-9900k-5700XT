@@ -1,6 +1,7 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
-## Verified working with 10.15.5.
+## Verified working with 10.15.6.
+## Updated to OpenCore 5.9
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
 
 ## Configuration
@@ -13,7 +14,7 @@
 - WIFI/BT: FV-T919  
 
 - SMIBIOS 19,1
-- OpenCore 5.8
+- OpenCore 5.9
 
 ## Confirmed working
 - Quick boot into MacOS and rock solid
@@ -33,7 +34,7 @@
 ## Known Issues
 - Unlock with Apple Watch does not work (for me)
 - Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
-
+These issue are most like related to the serial port that can not be disabled anymore in recent versions of the bios.
 
 ## Bios Setup:
 
