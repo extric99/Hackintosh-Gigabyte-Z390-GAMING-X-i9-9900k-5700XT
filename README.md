@@ -6,7 +6,7 @@
 
 ## Configuration
 - Motherboard: Gigabyte Gaming X
-- BIOS: f10c
+- BIOS: f10g (BETA)
 - CPU: i9-9900K  
 - RAM: 2x 8GB Crucial Ballistix Sport LT BLS2K8G4D30BESBK 3000 MHz, DDR4
 - Storage: Samsung 950 EVO M.2 512GB  
