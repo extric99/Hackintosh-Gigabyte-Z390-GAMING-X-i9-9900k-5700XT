@@ -1,7 +1,7 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
 ## Verified working with 10.15.6.
-## Updated to OpenCore 5.9
+## Update: Beta bios from Gigabyte resolve the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
 
 ## Configuration
@@ -32,7 +32,7 @@
 
 
 ## Known Issues
-- Unlock with Apple Watch does not work (for me)
+- Unlock with Apple Watch does not work (with current stable bios due to enabled serial port)
 - Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
 These issue are most like related to the serial port that can not be disabled anymore in recent versions of the bios.
 
@@ -42,6 +42,9 @@ These issue are most like related to the serial port that can not be disabled an
 - Advanced Mode > Settings > Above 4G Decoding > Enabled
 - Advanced Mode > Settings > USB Configuration > XHCI Hand-off > Enabled
 - Advanced Mode > Boot > CSM Support > Disabled
+
+NOTE: Bios has shared a BETA! BIOS that adresses the CFG Unlock, reverting to French issue and allows to disable the serial port which will make the Apple Watch Unlock work again. [More Information Here](https://www.tonymacx86.com/threads/ssdt-or-clover-patch-to-disable-super-i-o-serial-port-on-gigabyte-z390-m-gaming.287471/page-8). Important is to use a screen without USB/SD hub when configuring the bios for the first time otherwise you just have a black screen getting into the bios. Read the link for more info.
+USE THIS AT YOUR OWN RISK!
 
 ## USB Setup:
 
@@ -64,7 +67,7 @@ if you get stuck at opencore boot, try to clear nvram via opencore settings
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_MAC.png)
 
-## Disable CFG Lock
+## Disable CFG Lock (only needed with the current stable version)
 
 Disable CFG Lock (MSR 0x5C1) in BIOS via modified GRUB Shell, follow the guide [HERE] (https://www.tonymacx86.com/threads/gigabyte-z390-m-gaming-build-with-working-nvram.291193)
 
