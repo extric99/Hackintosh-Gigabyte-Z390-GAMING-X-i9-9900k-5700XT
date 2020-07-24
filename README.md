@@ -34,7 +34,6 @@
 ## Known Issues
 - Unlock with Apple Watch does not work (with current stable bios due to enabled serial port)
 - Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
-These issue are most like related to the serial port that can not be disabled anymore in recent versions of the bios.
 
 ## Bios Setup:
 
