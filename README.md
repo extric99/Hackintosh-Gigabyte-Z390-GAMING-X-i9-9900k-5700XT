@@ -23,7 +23,7 @@
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_temp.png)
 
-- iMessage,Handoff and Approve with Apple Watch
+- iMessage,Handoff and Approve & Unlock with Apple Watch
 - Sleep and Wake from bluetooth mouse or keyboard
 - iGPU Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies (shikivga=80) and SideCar
 
