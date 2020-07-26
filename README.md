@@ -1,13 +1,17 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
 ## Verified working with 10.15.6.
+<<<<<<< HEAD
 ## Update: Beta bios from Gigabyte resolve the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! 
 
+=======
+## Update: Beta bios from Gigabyte resolves the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! 
+>>>>>>> 1b04ecbc279d0b28fa2bc61142bd151334c477d3
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
 
 ## Configuration
 - Motherboard: Gigabyte Gaming X
-- BIOS: f10c
+- BIOS: f10g (BETA)
 - CPU: i9-9900K  
 - RAM: 2x 8GB Crucial Ballistix Sport LT BLS2K8G4D30BESBK 3000 MHz, DDR4
 - Storage: Samsung 950 EVO M.2 512GB  
@@ -23,7 +27,7 @@
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_temp.png)
 
-- iMessage,Handoff and Approve with Apple Watch
+- iMessage,Handoff and Approve & Unlock with Apple Watch
 - Sleep and Wake from bluetooth mouse or keyboard
 - iGPU Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies (shikivga=80) and SideCar
 
@@ -34,7 +38,6 @@
 ## Known Issues
 - Unlock with Apple Watch does not work (with current stable bios due to enabled serial port)
 - Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
-These issue are most like related to the serial port that can not be disabled anymore in recent versions of the bios.
 
 ## Bios Setup:
 
