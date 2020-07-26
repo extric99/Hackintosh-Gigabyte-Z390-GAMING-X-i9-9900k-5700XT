@@ -1,12 +1,8 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
 ## Verified working with 10.15.6.
-<<<<<<< HEAD
 ## Update: Beta bios from Gigabyte resolve the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! 
 
-=======
-## Update: Beta bios from Gigabyte resolves the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! 
->>>>>>> 1b04ecbc279d0b28fa2bc61142bd151334c477d3
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
 
 ## Configuration
