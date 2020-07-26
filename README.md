@@ -2,6 +2,7 @@
 
 ## Verified working with 10.15.6.
 ## Update: Beta bios from Gigabyte resolve the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! 
+
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
 
 ## Configuration
@@ -12,7 +13,6 @@
 - Storage: Samsung 950 EVO M.2 512GB  
 - dGPU: ASUS 5700XT (Reference)  
 - WIFI/BT: FV-T919  
-
 - SMIBIOS 19,1
 - OpenCore 5.9
 
@@ -29,7 +29,7 @@
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Hackintool_1.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot%20Framebuffer.png)
-
+- Improved OpenCL and Metal performace due to Radeon optimizations
 
 ## Known Issues
 - Unlock with Apple Watch does not work (with current stable bios due to enabled serial port)
