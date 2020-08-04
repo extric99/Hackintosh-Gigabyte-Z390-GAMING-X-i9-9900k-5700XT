@@ -1,6 +1,6 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
-## Verified working with 10.15.6. and Big Sur 11.0 Beta 2 
+## Verified working with 10.15.6. and Big Sur 11.0 Beta 3 
 ## Update: Beta bios from Gigabyte resolve the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! CFG Unlock is required for this EFI to work properly. Unlock either with the BETA Bios or the method described below
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
@@ -25,8 +25,8 @@
 
 - iMessage,Handoff and Approve & Unlock with Apple Watch
 - Sleep and Wake from bluetooth mouse or keyboard
-- iGPU Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies (shikivga=80) and SideCar
-
+- iGPU Framebuffer for hardware acceleration (encoding/decoding/preview) including Apple TV DRM movies (shikivga=80) and SideCar
+(note: Big Sur seems to break the support for Apple TV DRM, no issues on cataline with OpenCore 6.0)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Hackintool_1.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot%20Framebuffer.png)
 - Improved OpenCL [here](https://browser.geekbench.com/v5/compute/1264374) and Metal performace [here](https://browser.geekbench.com/v5/compute/1264376)due to Radeon optimizations
