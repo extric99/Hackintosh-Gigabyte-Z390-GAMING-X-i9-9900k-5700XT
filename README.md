@@ -34,6 +34,7 @@
 ## Known Issues
 - Unlock with Apple Watch does not work (with current stable bios due to enabled serial port, use the Beta one)
 - Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
+- I dont use a NVME drive or but if you use a one its recommended to use NVMeFix.kext to fix power and energy consumption on these drives
 
 ## Bios Setup:
 
