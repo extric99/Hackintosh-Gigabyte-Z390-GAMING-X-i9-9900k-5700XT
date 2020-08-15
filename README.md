@@ -1,9 +1,10 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
-## Verified working with 10.15.6. and Big Sur 11.0 Beta 4
-## Update: Beta bios from Gigabyte resolve the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! CFG Unlock is required for this EFI to work properly. Unlock either with the BETA Bios or the method described below
+## Verified working with 10.15.6. and Big Sur 11.0 Public Beta 1
+## Update: Beta bios from Gigabyte resolves the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! CFG Unlock is required for this EFI to work properly. Unlock either with the BETA Bios or the method described below
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_BigSur.png)
 
 ## Configuration
 - Motherboard: Gigabyte Gaming X
@@ -34,7 +35,7 @@
 ## Known Issues
 - Unlock with Apple Watch does not work (with current stable bios due to enabled serial port, use the Beta one)
 - Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
-- I dont use a NVME drive or but if you use a one its recommended to use NVMeFix.kext to fix power and energy consumption on these drives
+- I dont use a NVME drive but if you use a one its recommended to use NVMeFix.kext to fix power and energy consumption on these drives
 
 ## Bios Setup:
 
