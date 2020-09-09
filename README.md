@@ -1,9 +1,10 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
-## Verified working with 10.15.6. and Big Sur 11.0 Public Beta 3  
-## Update: Beta bios from Gigabyte resolve the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! CFG Unlock is required for this EFI to work properly. Unlock either with the BETA Bios or the method described below
+## Verified working with 10.15.6. and Big Sur 11.0 Public Beta 3
+## Update: Beta bios from Gigabyte resolves the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! CFG Unlock is required for this EFI to work properly. Unlock either with the BETA Bios or the method described below
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_BigSur.png)
 
 ## Configuration
 - Motherboard: Gigabyte Gaming X
@@ -25,15 +26,16 @@
 
 - iMessage,Handoff and Approve & Unlock with Apple Watch
 - Sleep and Wake from bluetooth mouse or keyboard
-- iGPU Framebuffer for hardware acceleration (encoding/decoding/preview) including AppleTV DRM movies (shikivga=80) and SideCar
-
+- iGPU Framebuffer for hardware acceleration (encoding/decoding/preview) including Apple TV DRM movies (shikivga=80) and SideCar
+(note: Big Sur seems to break the support for Apple TV DRM, no issues on Catalina with OpenCore 6.0)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Hackintool_1.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot%20Framebuffer.png)
-- Improved OpenCL [here](https://browser.geekbench.com/v5/compute/1264374) and Metal performace [here](https://browser.geekbench.com/v5/compute/1264376)due to Radeon optimizations
+- Improved OpenCL [here](https://browser.geekbench.com/v5/compute/1264374) and Metal performance [here](https://browser.geekbench.com/v5/compute/1264376)due to Radeon optimisations
 
 ## Known Issues
-- Unlock with Apple Watch does not work (with current stable bios due to enabled serial port)
+- Unlock with Apple Watch does not work (with current stable bios due to enabled serial port, use the Beta one)
 - Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
+- I don't use a NVME drive but if you use a one its recommended to use NVMeFix.kext to fix power and energy consumption on these drives
 
 ## Bios Setup:
 
@@ -56,13 +58,13 @@ Ignore the Thunderbolt controller, this has been removed from this EFI.
 
 ## Post Installation
 1. Setup Bios as per above
-2. Open your config.plist and populate the Serial, Board Serial, UUID and MAC address. Make sure to edit the config.plist only with ProperTree
+2. Open your config.plist and populate the Serial, Board Serial, UUID and MAC address. Make sure to edit the config.plist only with ProperTree.
 3. Go to System Preferences > Startup Disk and select your startup disk.
-4. Disable CFG Lock and save profile in Bios (see below)
-5.[Enable Trim](https://www.howtogeek.com/222077/how-to-enable-trim-for-third-party-ssds-on-mac-os-x/)
+4. Disable CFG Lock and save profile in Bios (see below).
+5. [Enable Trim](https://www.howtogeek.com/222077/how-to-enable-trim-for-third-party-ssds-on-mac-os-x/).
 6. Done.
 
-if you get stuck at opencore boot, try to clear nvram via opencore settings  
+If you get stuck at OpenCore boot, try to clear nvram via OpenCore settings  
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_MAC.png)
 
@@ -88,5 +90,4 @@ setup_var_3 0x5C1 0x0
 ## Tips
 - User [EFI-shell] (https://www.tonymacx86.com/attachments/efi-shell-zip.448321)
 - Use [Hackintool](http://headsoft.com.au/download/mac/Hackintool.zip) to validate correct implementation of Framebuffer and USB
-- Use [macinfo](https://github.com/acidanthera/MacInfoPkg) to generate your S/N
-
+- Use [Macinfo](https://github.com/acidanthera/MacInfoPkg) to generate your S/N
