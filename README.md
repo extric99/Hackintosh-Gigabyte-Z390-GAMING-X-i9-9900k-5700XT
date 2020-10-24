@@ -1,7 +1,8 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
-## Verified working with 10.15.6. and Big Sur 11.0 Public Beta 3
+## Verified working with 10.15.7. and Big Sur 11.0 Beta 10
 ## Update: Beta bios from Gigabyte resolves the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! CFG Unlock is required for this EFI to work properly. Unlock either with the BETA Bios or the method described below
+## Update 2: I migrated to a 1TB Samsung NVME drive so I added the recommended NVMeFix.kext to fix power and energy consumption on these drives. You can disable the kext in the config.plist if you don't use NVME but only SATA drives.    
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_BigSur.png)
@@ -10,12 +11,12 @@
 - Motherboard: Gigabyte Gaming X
 - BIOS: f10g (BETA)
 - CPU: i9-9900K  
-- RAM: 2x 8GB Crucial Ballistix Sport LT BLS2K8G4D30BESBK 3000 MHz, DDR4
-- Storage: Samsung 950 EVO M.2 512GB  
+- RAM: 4x 8GB Crucial Ballistix Sport LT BLS2K8G4D30BESBK 3000 MHz, DDR4
+- Storage: Samsung 970 EVO M.2 1TB  
 - dGPU: ASUS 5700XT (Reference)  
 - WIFI/BT: FV-T919  
 - SMIBIOS 19,1
-- OpenCore 0.6.1
+- OpenCore 0.6.2
 
 ## Confirmed working
 - Quick boot into MacOS and rock solid
@@ -33,9 +34,9 @@
 - Improved OpenCL [here](https://browser.geekbench.com/v5/compute/1264374) and Metal performance [here](https://browser.geekbench.com/v5/compute/1264376)due to Radeon optimisations
 
 ## Known Issues
-- Unlock with Apple Watch does not work (with current stable bios due to enabled serial port, use the Beta one)
+- Unlock with Apple Watch does not work with current stable bios due to enabled serial port. (use the Beta one or F7)
 - Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
-- I don't use a NVME drive but if you use a one its recommended to use NVMeFix.kext to fix power and energy consumption on these drives
+
 
 ## Bios Setup:
 
