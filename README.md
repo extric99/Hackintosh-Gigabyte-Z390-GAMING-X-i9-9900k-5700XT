@@ -39,12 +39,12 @@
 
 
 ## Bios Setup:
-
+```
 - Make sure the IGP is set to Enabled for the Framebuffer to be recognized (Auto will not work)
 - Advanced Mode > Settings > Above 4G Decoding > Enabled
 - Advanced Mode > Settings > USB Configuration > XHCI Hand-off > Enabled
 - Advanced Mode > Boot > CSM Support > Disabled
-
+```
 NOTE: Bios has shared a BETA! BIOS that adresses the CFG Unlock, reverting to French issue and allows to disable the serial port which will make the Apple Watch Unlock work again. [More Information Here](https://www.tonymacx86.com/threads/ssdt-or-clover-patch-to-disable-super-i-o-serial-port-on-gigabyte-z390-m-gaming.287471/page-8). Important is to use a screen without USB/SD hub when configuring the bios for the first time otherwise you just have a black screen getting into the bios. Read the link for more info.
 USE THIS AT YOUR OWN RISK!
 
@@ -58,13 +58,14 @@ Ignore the Thunderbolt controller, this has been removed from this EFI.
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_USB.png)
 
 ## Post Installation
+```
 1. Setup Bios as per above
 2. Open your config.plist and populate the Serial, Board Serial, UUID and MAC address. Make sure to edit the config.plist only with ProperTree.
 3. Go to System Preferences > Startup Disk and select your startup disk.
 4. Disable CFG Lock and save profile in Bios (see below).
 5. [Enable Trim](https://www.howtogeek.com/222077/how-to-enable-trim-for-third-party-ssds-on-mac-os-x/).
 6. Done.
-
+```
 If you get stuck at OpenCore boot, try to clear nvram via OpenCore settings  
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_MAC.png)
