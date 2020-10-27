@@ -31,7 +31,7 @@
 (note: Big Sur seems to break the support for Apple TV DRM, no issues on Catalina with OpenCore 6.0)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Hackintool_1.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot%20Framebuffer.png)
-- Improved OpenCL [here](https://browser.geekbench.com/v5/compute/1264374) and Metal performance [here](https://browser.geekbench.com/v5/compute/1264376)due to Radeon optimisations
+- Improved OpenCL [here](https://browser.geekbench.com/v5/compute/1264374) and Metal performance [here](https://browser.geekbench.com/v5/compute/1264376) thanks to Radeon optimisations
 
 ## Known Issues
 - Unlock with Apple Watch does not work with current stable bios due to enabled serial port. (use the Beta one or F7)
