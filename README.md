@@ -17,22 +17,26 @@
 - dGPU: ASUS 5700XT (Reference)  
 - WIFI/BT: FV-T919  
 - SMIBIOS 19,1
-- OpenCore 0.6.2
+- OpenCore 0.6.3
 ```
 ## Confirmed working
 ```
 - Quick boot into MacOS and rock solid
 - NVRAM if CFG Lock is disabled (see below)
 - Fan and CPU temp information
-```
-![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_temp.png)
-
 - iMessage,Handoff and Approve & Unlock with Apple Watch
 - Sleep and Wake from bluetooth mouse or keyboard
 - iGPU Framebuffer for hardware acceleration (encoding/decoding/preview) including Apple TV DRM movies (shikivga=80) and SideCar
 (note: Big Sur seems to break the support for Apple TV DRM, no issues on Catalina with OpenCore 6.0)
+- iMessage,Handoff and Approve & Unlock with Apple Watch
+- Sleep and Wake from bluetooth mouse or keyboard
+- iGPU Framebuffer for hardware acceleration (encoding/decoding/preview) including Apple TV DRM movies (shikivga=80) and SideCar
+(note: Big Sur seems to break the support for Apple TV DRM, no issues on Catalina with OpenCore 6.0)
+```
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_temp.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Hackintool_1.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot%20Framebuffer.png)
+
 - Improved OpenCL [here](https://browser.geekbench.com/v5/compute/1264374) and Metal performance [here](https://browser.geekbench.com/v5/compute/1264376) thanks to Radeon optimisations
 
 ## Known Issues
@@ -43,11 +47,12 @@
 ## Bios Setup:
 ```
 - Make sure the IGP is set to Enabled for the Framebuffer to be recognized (Auto will not work)
+- Disable CFG Lock 
 - Advanced Mode > Settings > Above 4G Decoding > Enabled
 - Advanced Mode > Settings > USB Configuration > XHCI Hand-off > Enabled
 - Advanced Mode > Boot > CSM Support > Disabled
 ```
-NOTE: Bios has shared a BETA! BIOS that adresses the CFG Unlock, reverting to French issue and allows to disable the serial port which will make the Apple Watch Unlock work again. [More Information Here](https://www.tonymacx86.com/threads/ssdt-or-clover-patch-to-disable-super-i-o-serial-port-on-gigabyte-z390-m-gaming.287471/page-8). Important is to use a screen without USB/SD hub when configuring the bios for the first time otherwise you just have a black screen getting into the bios. Read the link for more info.
+NOTE: Bios has shared a BETA! BIOS that adresses the CFG Unlock, reverting to French issue and allows to disable the serial port which will make the Apple Watch Unlock work again. [>More info here<](https://www.tonymacx86.com/threads/ssdt-or-clover-patch-to-disable-super-i-o-serial-port-on-gigabyte-z390-m-gaming.287471/page-8). Important is to use a screen without USB/SD hub when configuring the bios for the first time otherwise you just have a black screen getting into the bios. Read the link for more info.
 USE THIS AT YOUR OWN RISK!
 
 ## USB Setup:
@@ -62,7 +67,7 @@ Ignore the Thunderbolt controller, this has been removed from this EFI.
 ## Post Installation
 
 1. Setup Bios as per above
-2. Open your config.plist and populate the Serial, Board Serial, UUID and MAC address. Make sure to edit the config.plist only with ProperTree.
+2. Open your config.plist, go to PlatformInfo -> Generic and populate the Serial, Board Serial (MLB), SystemUUID and ROM (ethernet MAC address in Base64 [more info](https://dortania.github.io/OpenCore-Post-Install/universal/iservices.html#fixing-en0)). Make sure to edit the config.plist only with ProperTree.
 3. Go to System Preferences > Startup Disk and select your startup disk.
 4. Disable CFG Lock and save profile in Bios (see below).
 5. [Enable Trim](https://www.howtogeek.com/222077/how-to-enable-trim-for-third-party-ssds-on-mac-os-x/).
