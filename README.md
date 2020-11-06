@@ -44,6 +44,7 @@
 ```
 - Make sure the IGP is set to Enabled for the Framebuffer to be recognized (Auto will not work)
 - Disable CFG Lock 
+- Disable Serial Port (Beta Bios only)
 - Advanced Mode > Settings > Above 4G Decoding > Enabled
 - Advanced Mode > Settings > USB Configuration > XHCI Hand-off > Enabled
 - Advanced Mode > Boot > CSM Support > Disabled
