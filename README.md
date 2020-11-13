@@ -1,6 +1,6 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
-## Verified working with 10.15.7. and Big Sur 11.0.1 Beta (20B5012d)
+## Verified working with 10.15.7. and Big Sur 11.0.1 Final
 ## Update: Beta bios from Gigabyte resolves the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! CFG Unlock is required for this EFI to work properly. Unlock either with the BETA Bios or the method described below
 ## Update 2: I migrated to a 1TB Samsung NVME drive so I added the recommended NVMeFix.kext to fix power and energy consumption on these drives. You can disable the kext in the config.plist if you don't use NVME but only SATA drives.    
 
