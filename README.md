@@ -21,8 +21,8 @@
 ## Confirmed working
 ```
 - Quick boot into MacOS and rock solid
-- NVRAM if CFG Lock is disabled (see below)
-- Fan and CPU temp information
+- NVRAM if CFG Lock is disabled 
+- Fan and CPU temp information (see below)
 - iMessage,Handoff and Approve & Unlock with Apple Watch
 - Sleep and Wake from bluetooth mouse or keyboard
 - iGPU Framebuffer for hardware acceleration (encoding/decoding/preview) including Apple TV DRM movies (shikivga=80) and SideCar
