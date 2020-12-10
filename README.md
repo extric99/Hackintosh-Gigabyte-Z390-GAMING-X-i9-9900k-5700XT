@@ -16,7 +16,7 @@
 - dGPU: ASUS 5700XT (Reference)  
 - WIFI/BT: FV-T919  
 - SMIBIOS 19,1
-- OpenCore 0.6.3
+- OpenCore 0.6.4
 ```
 ## Confirmed working
 ```
