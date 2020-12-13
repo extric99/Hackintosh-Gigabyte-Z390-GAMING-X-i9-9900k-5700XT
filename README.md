@@ -1,6 +1,6 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
-## Verified working with 10.15.7. and Big Sur 11.1.0 Beta
+## Verified working with 10.15.7. and Big Sur 11.1 RC (20c69)
 ## Update: New Stable bios F10h from Gigabyte resolves the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! CFG Unlock is required for this EFI to work properly.
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
