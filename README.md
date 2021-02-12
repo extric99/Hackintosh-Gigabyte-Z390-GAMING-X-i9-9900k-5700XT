@@ -1,6 +1,6 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
-## Verified working with 10.15.7. and Big Sur 11.2 Beta
+## Verified working with 10.15.7. and Big Sur 11.3 Beta
 ## Update: New Stable bios F10h from Gigabyte resolves the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! CFG Unlock is required for this EFI to work properly.
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
@@ -9,19 +9,19 @@
 ## Configuration
 ```
 - Motherboard: Gigabyte Gaming X
-- BIOS: f10g (BETA)
+- BIOS: f10h
 - CPU: i9-9900K  
 - RAM: 4x 8GB Crucial Ballistix Sport LT BLS2K8G4D30BESBK 3000 MHz, DDR4
 - Storage: Samsung 970 EVO M.2 1TB  
 - dGPU: ASUS 5700XT (Reference)  
 - WIFI/BT: FV-T919  
 - SMIBIOS 19,1
-- OpenCore 0.6.4
+- OpenCore 0.6.6
 ```
 ## Confirmed working
 ```
 - Quick boot into MacOS and rock solid
-- NVRAM if CFG Lock is disabled 
+- NVRAM if CFG Lock is disabled
 - Fan and CPU temp information (see below)
 - iMessage,Handoff and Approve & Unlock with Apple Watch
 - Sleep and Wake from bluetooth mouse or keyboard
@@ -32,16 +32,16 @@
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Hackintool_1.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot%20Framebuffer.png)
 
-- Improved OpenCL [here](https://browser.geekbench.com/v5/compute/1264374) and Metal performance [here](https://browser.geekbench.com/v5/compute/1264376) thanks to Radeon optimisations
+- Improved OpenCL [here](https://browser.geekbench.com/v5/compute/1264374) and Metal performance [here](https://browser.geekbench.com/v5/compute/1264376) thanks to the Radeon optimisations
 
 ## Known Issues
 - Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
 
 ## Bios Setup:
 ```
-- Make sure the IGP is set to Enabled for the Framebuffer to be recognized (Auto will not work)
-- Disable CFG Lock 
-- Disable Serial Port 
+- Make sure the IGP is set to Enabled for the Framebuffer to be recognised (Auto will not work)
+- Disable CFG Lock
+- Disable Serial Port
 - Advanced Mode > Settings > Above 4G Decoding > Enabled
 - Advanced Mode > Settings > USB Configuration > XHCI Hand-off > Enabled
 - Advanced Mode > Boot > CSM Support > Disabled
