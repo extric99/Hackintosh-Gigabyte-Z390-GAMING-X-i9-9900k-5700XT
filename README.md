@@ -3,6 +3,8 @@
 ## Verified working with 10.15.7. and Big Sur 11.5.1
 ## Update: New Stable bios F10h from Gigabyte resolves the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! CFG Unlock is required for this EFI to work properly.
 
+## BETA VERSION of 0.7.7 for Monterey is available for testing in the issues section. Please test and let me know if this works correctly for you especially with bluetooth. I will release it when I get positive feedback.
+
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_BigSur.png)
 
