@@ -3,7 +3,6 @@
 ## Verified working with Monterey and Ventura
 
 
-![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_BigSur.png)
 
 ## Configuration
