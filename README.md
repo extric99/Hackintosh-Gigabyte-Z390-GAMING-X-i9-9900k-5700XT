@@ -1,9 +1,7 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
-## Verified working with 10.15.7. and Big Sur 11.5.1
-## Update: New Stable bios F10h from Gigabyte resolves the Apple Watch unlock issue and provides the CFG Unlock in the bios!!!!!! CFG Unlock is required for this EFI to work properly.
+## Verified working with Monterey and Ventura
 
-## BETA VERSION of 0.7.7 for Monterey is available for testing in the issues section. Please test and let me know if this works correctly for you especially with bluetooth. I will release it when I get positive feedback.
 
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Info.png)
 ![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_BigSur.png)
@@ -37,7 +35,7 @@
 - Improved OpenCL [here](https://browser.geekbench.com/v5/compute/1264374) and Metal performance [here](https://browser.geekbench.com/v5/compute/1264376) thanks to the Radeon optimisations
 
 ## Known Issues
-- Multiple key press to wake from sleep with bluetooth (known issue with Gigabyte Gaming X or M boards)
+
 
 ## Bios Setup:
 ```
