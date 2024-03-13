@@ -3,7 +3,7 @@
 ## Verified working with Monterey, Ventura, Sonoma
 
 
-![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Sonoma.png)
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Sonoma.jpg)
 
 ## Configuration
 ```
