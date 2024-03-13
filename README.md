@@ -1,9 +1,9 @@
 # Hackintosh Gigabyte GAMING X i9-9900k 5700XT
 
-## Verified working with Monterey and Ventura
+## Verified working with Monterey, Ventura, Sonoma
 
 
-![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_BigSur.png)
+![](https://github.com/extric99/Hackintosh-Gigabyte-Z390-GAMING-X-i7-9900k-5700XT/blob/master/screenshot/Screenshot_Sonoma.png)
 
 ## Configuration
 ```
@@ -15,7 +15,7 @@
 - dGPU: ASUS 5700XT (Reference)  
 - WIFI/BT: FV-T919  
 - SMIBIOS 19,1
-- OpenCore 0.6.6
+- OpenCore 0.9.9
 ```
 ## Confirmed working
 ```
